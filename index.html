@@ -24,7 +24,7 @@
   </head>
   <body>
     <header class="header">
-      <nav>
+      <div class="container">
         <a href="./index.html" class="logo"
           >Web<span class="accent">Studio</span></a
         >
@@ -34,7 +34,7 @@
             <a class="header-menu-link" href="./index.html">Studio</a>
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link" href="">Portfolio</a>Portfolio
+            <a class="header-menu-link" href="">Portfolio</a>
           </li>
           <li class="header-menu-item">
             <a class="header-menu-link" href="">Contacts</a>
@@ -55,15 +55,19 @@
           </li>
         </ul>
       </address>
+      
+      </div>
     </header>
     <main>
       <section class="section-hero">
-        <h1 class="hero-heading">Effective Solutions for Your Business</h1>
+        <div class="hero">
+                  <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-btn" type="button">Order Service</button>
+      </div>
       </section>
       <section class="section-about-us">
         <h2 hidden>About Us</h2>
-        <ul class="about-us-list">
+        <ul class="about-us-list container">
           <li class="about-us-item">
             <h3 class="about-us-title">Strategy</h3>
             <p class="about-us-text">
@@ -105,8 +109,10 @@
               alt="beard_guy"
               width="264"
             />
+            <div class="team-info">
             <h3 class="our-team-subtitle">Mark Guerrero</h3>
             <p class="our-team-text">Product Designer</p>
+            </div>
           </li>
           <li class="our-team-item">
             <img
@@ -115,8 +121,10 @@
               alt="big_smile_guy"
               width="264"
             />
+            <div class="team-info">
             <h3 class="our-team-subtitle">Tom Ford</h3>
             <p class="our-team-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="our-team-item">
             <img
@@ -125,9 +133,12 @@
               alt="girl_in_pink"
               width="264"
             />
+           <div class="team-info">
             <h3 class="our-team-subtitle">Camila Garcia</h3>
             <p class="our-team-text">Marketing</p>
+           </div>
           </li>
+        
           <li class="our-team-item">
             <img
               class="our-team-image"
@@ -135,14 +146,17 @@
               alt="gray-t-shirt-guy"
               width="264"
             />
+            <div class="team-info">
             <h3 class="our-team-subtitle">Daniel Wilson</h3>
             <p class="our-team-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
       <section class="section-portfolio">
         <h2 class="portfolio-title">Our Portfolio</h2>
-        <ul class="portfolio-list">
+        <ul class="portfolio-list container">
+          
           <li class="portfolio-item">
             <img
               class="portfolio-image"
@@ -150,8 +164,10 @@
               alt="portfolio-image"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Banking App</h3>
             <p class="portfolio-text">App</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -160,8 +176,10 @@
               alt="banking-app"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -170,9 +188,12 @@
               alt="cashless-payment"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Meditation App</h3>
             <p class="portfolio-text">App</p>
+            </div>
           </li>
+          
           <li class="portfolio-item">
             <img
               class="portfolio-image"
@@ -180,8 +201,10 @@
               alt="meditation"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -190,8 +213,10 @@
               alt="taxi"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
+            </div>
           </li>
           <li class="portfolio-item">
             <img
@@ -200,21 +225,26 @@
               alt="screen-illustrations"
               width="360"
             />
+            <div class="portfolio-info">
             <h3 class="portfolio-subtitle">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
+            </div>
           </li>
+          
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo logo-footer"
-        >Web<span class="accent">Studio</span></a
-      >
+      <div class="footer-container">
+        <a href="./index.html" class="logo logo-footer"
+          >Web<span class="accent">Studio</span></a
+        >
 
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
