@@ -101,12 +101,13 @@ span .accent {
   text-decoration: underline;
 }
 
-address {
+/* address {
   font-style: normal;
-}
+} */
 
 .header-address-list {
-  display: inline-block;
+  font-style: normal;
+  /* display: inline-block; */
   white-space: nowrap;
   justify-content: space-between;
 }
