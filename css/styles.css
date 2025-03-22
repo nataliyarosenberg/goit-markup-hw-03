@@ -40,9 +40,14 @@ a {
   color: #434455;
 }
 
+img {
+  display: block;
+}
+
 /* -----------HEADER------------ */
 .header {
   color: #2e2f42;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -235,6 +240,7 @@ span .accent {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .about-us-text {
