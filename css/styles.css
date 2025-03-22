@@ -53,9 +53,14 @@ nav {
   display: flex;
   align-items: center;
 }
-
-.header .container {
+header-block {
+  display: flex;
+  /* flex-wrap: nowrap; */
   width: 1158px;
+  align-items: center;
+}
+.container {
+  width: 100%;
   /* justify-content: space-between; */
   align-items: center;
 }
@@ -110,15 +115,21 @@ span .accent {
   text-decoration: underline;
 }
 
-/* address {
+address {
   font-style: normal;
-} */
+  display: flex;
+  display: inline-block;
+  white-space: nowrap;
+  gap: 40px;
+}
 
 .header-address-list {
   font-style: normal;
-  /* display: inline-block; */
+  display: flex;
+  display: inline-block;
   white-space: nowrap;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .header-address-item {
