@@ -53,11 +53,12 @@ nav {
   display: flex;
   align-items: center;
 }
-header-block {
+.container {
   display: flex;
   /* flex-wrap: nowrap; */
   width: 1158px;
   align-items: center;
+  padding: 0 15px;
 }
 .header .container {
   display: flex;
@@ -97,6 +98,7 @@ span .accent {
 }
 
 .header-menu-item {
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-right: 40px;
@@ -230,7 +232,6 @@ span .accent {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  display: flex;
   margin: 0 auto;
   border: none;
 }
@@ -304,8 +305,9 @@ span .accent {
 /* --------------OUR TEAM----------- */
 .section-our-team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  margin-bottom: 120px;
+  /* padding-top: 120px;
+  margin-bottom: 120px; */
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -404,6 +406,7 @@ span .accent {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
   border-top: none;
+  column-gap: 24px;
 }
 
 .portfolio-list:last-child {
@@ -463,6 +466,10 @@ span .accent {
   padding-bottom: 100px;
 }
 
+a .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* .footer-block {
   width: 1158px;
   padding: 0 15px;
@@ -483,7 +490,7 @@ span .accent {
 .footer .accent {
   color: #f4f4fd;
 }
-.footer-text {
+p .footer-text {
   max-width: 264px;
 }
 
