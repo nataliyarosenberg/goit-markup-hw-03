@@ -273,7 +273,7 @@ span .accent {
 .about-us-list {
   display: flex;
   flex-wrap: nowrap;
-  width: 1158px;
+  width: 1128px;
   padding: 0;
   gap: 24px;
 }
@@ -284,7 +284,7 @@ span .accent {
 
 .about-us-item {
   align-items: flex-start;
-  max-width: 264px;
+  /* max-width: 264px; */
   width: calc((100% - 72px) / 4);
   /* margin-right: 24px; */
 }
