@@ -325,7 +325,7 @@ span .accent {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 120px;
+  /* margin-top: 120px; */
   margin-bottom: 72px;
 }
 
@@ -347,11 +347,11 @@ span .accent {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
   /* width: 264px;
   height: 380px; */
   margin-right: 24px;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -404,10 +404,12 @@ span .accent {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
 
   row-gap: 48px;
   column-gap: 24px;
+  padding: 0;
 }
 
 .portfolio-list:last-child {
