@@ -255,23 +255,27 @@ span .accent {
   justify-content: center;
   padding: 120px auto;
 }
+
 .visually-hidden {
-  position: absolute; /* Take it out of the normal document flow */
-  width: 1px; /* Make it 1px wide */
-  height: 1px; /* Make it 1px high */
-  margin: -1px; /* Remove any extra space it might take up */
-  padding: 0; /* Remove any internal padding */
-  border: 0; /* Remove any borders */
-  clip: rect(0, 0, 0, 0); /* Clip the element so it doesn't take up space */
-  overflow: hidden; /* Hide anything that's outside of the clipped area */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .about-us-list {
   display: flex;
   flex-wrap: nowrap;
   width: 1158px;
-  gap: 24px;
   padding: 0;
+  gap: 24px;
 }
 
 .about-us-list:last-child {
@@ -334,6 +338,7 @@ span .accent {
   width: 100%;
   justify-content: center;
   align-items: center;
+  padding: 0;
   gap: 24px;
 }
 
@@ -347,19 +352,16 @@ span .accent {
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px; */
-  /* width: 264px;
-  height: 380px; */
-  /* margin-right: 24px; */
-  /* margin-bottom: 120px; */
+  width: calc((100% - 72px) / 4);
 
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  width: calc((100% - 72px) / 4);
 }
 
 .our-team-image {
+  display: inline-block;
+  width: 100%;
 }
 
 .team-info {
