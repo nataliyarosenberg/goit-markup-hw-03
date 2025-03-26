@@ -16,6 +16,8 @@ p {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 button {
   cursor: pointer;
@@ -26,14 +28,11 @@ a {
 }
 
 .container {
-  /* display: flex; */
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-/* .container-nav {
-  padding-right: 156px;
-} */
+
 .accent {
   color: #2e2f42;
 }
@@ -52,28 +51,17 @@ img {
   color: #2e2f42;
   border-bottom: 1px solid #e7e9fc;
 }
-nav {
+.container-nav {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container {
-  /* display: flex; */
-  /* flex-wrap: nowrap; */
-  width: 1158px;
-  /* align-items: center; */
-  padding: 0 15px;
-  /* margin-bottom: 16px; */
-  margin: 0 auto;
-}
+
 .header .container {
   display: flex;
-  /* width: 1158px; */
+
   justify-content: space-between;
   align-items: center;
-  /* margin: 0 auto;
-
-  padding: 0 15px; */
 }
 
 .logo {
@@ -96,7 +84,6 @@ span .accent {
 .header-menu-list {
   color: #2e2f42;
   display: flex;
-  /* margin-right: 332px; */
   gap: 40px;
   padding: 0;
 }
@@ -107,7 +94,6 @@ span .accent {
 
 .header-menu-item {
   display: flex;
-  /* padding-right: 40px; */
 }
 
 .header-menu-link {
@@ -132,10 +118,6 @@ span .accent {
 }
 
 .header-address {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-left: 236px;
 }
 
 .header-address-list {
@@ -191,8 +173,6 @@ span .accent {
 /* -----------HERO---------- */
 
 .section-hero {
-  width: 100%;
-  min-height: 600px;
   background-color: #2e2f42;
   padding: 188px 0;
 }
@@ -250,10 +230,7 @@ span .accent {
 /*--------------ABOUT US-------------*/
 
 .section-about-us {
-  display: flex;
   padding: 120px 0;
-  justify-content: center;
-  padding: 120px auto;
 }
 
 .visually-hidden {
@@ -272,21 +249,12 @@ span .accent {
 
 .about-us-list {
   display: flex;
-  flex-wrap: nowrap;
-  width: 1128px;
-  padding: 0;
+
   gap: 24px;
 }
 
-.about-us-list:last-child {
-  margin-right: 0;
-}
-
 .about-us-item {
-  align-items: flex-start;
-  /* max-width: 264px; */
   width: calc((100% - 72px) / 4);
-  /* margin-right: 24px; */
 }
 .about-us-item:last-child {
   margin-right: 0;
@@ -313,8 +281,7 @@ span .accent {
 /* --------------OUR TEAM----------- */
 .section-our-team {
   background-color: #f4f4fd;
-  /* padding-top: 120px;
-  margin-bottom: 120px; */
+
   padding: 120px 0;
 }
 
@@ -329,28 +296,16 @@ span .accent {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  /* margin-top: 120px; */
   margin-bottom: 72px;
 }
 
 .our-team-list {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
+
   gap: 24px;
 }
 
-.our-team-list:last-child {
-  margin: 0;
-}
-
 .our-team-item {
-  display: flex;
-
-  flex-direction: column;
-  background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 
@@ -406,16 +361,8 @@ span .accent {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  justify-content: center;
-
   row-gap: 48px;
   column-gap: 24px;
-  padding: 0;
-}
-
-.portfolio-list:last-child {
-  margin-bottom: 0;
 }
 
 .portfolio-item {
@@ -426,18 +373,10 @@ span .accent {
 }
 
 .portfolio-info {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
-  width: 360px;
-  height: 120px;
 }
 
 .portfolio-subtitle {
@@ -460,22 +399,15 @@ span .accent {
 /* --------------FOOTER------------------ */
 
 .footer {
-  display: flex;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding-top: 100px;
-  /* padding-left: 156px; */
   padding-bottom: 100px;
 }
 
-/* .logo .footer {
-  display: inline-block;
-  max-width: 264px;
-  margin-bottom: 16px;
-} */
 .logo {
   color: #4d5ae5;
 }
@@ -484,11 +416,17 @@ span .accent {
   display: inline-block;
   padding: 0;
   margin-bottom: 16px;
+  margin-right: 0;
 }
 .footer .accent {
   color: #f4f4fd;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
+  color: #f4f4fd;
   max-width: 264px;
 }
 
