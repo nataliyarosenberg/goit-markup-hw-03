@@ -315,7 +315,7 @@ span .accent {
 }
 
 .our-team-image {
-  display: inline-block;
+  display: block;
   width: 100%;
 }
 
